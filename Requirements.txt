@@ -1,0 +1,7 @@
+pytest==5.4.3
+selenium
+webdriver-manager
+pytest-xdist
+pytest-html
+openpyxl
+allure-pytest
