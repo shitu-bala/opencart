@@ -13,7 +13,7 @@ from utilities.CustomLogger import LogGen
 class Test_001_AccountReg():
     BaseURL = readConfig.getApplicatiURL()
     logger = LogGen.loggen()
-    @pytest.Mark.sanity
+    @pytest.mark.sanity
     def test_account_reg(self, setup):
         self.driver = setup
         self.driver.implicitly_wait(10)

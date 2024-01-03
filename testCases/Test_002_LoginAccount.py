@@ -14,7 +14,7 @@ class Test_002_LoginAccount():
     username = readConfig.getUseremail()
     password = readConfig.getpassword()
 
-    @pytest.mark.sanity
+    @ pytest.mark.sanity
     def test_login_account(self, setup):
         self.driver = setup
         self.driver.implicitly_wait(10)
